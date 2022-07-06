@@ -323,10 +323,16 @@ i {
     color: gray;
 }
 
+.apdate-section p {
+    color: gray;
+
+}
 
 .form-section {
     box-sizing: border-box;
+    margin-top: 25px;
 }
+
 
 .box {
     text-align: center;
