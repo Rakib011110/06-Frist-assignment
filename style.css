@@ -65,7 +65,7 @@ body {
 
 
 .box-shadaw {
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
     width: 90%;
@@ -75,19 +75,69 @@ body {
     margin-top: 100px;
     box-shadow: 0px 5px 10px gray;
     margin-bottom: 50px;
+    */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
 }
+
+.money-1k {
+    background-color: #ede4d880;
+    padding: 30px;
+    background: ;
+}
+
+.money-2k {
+    background-color: #ede4d880;
+    border-style: solid;
+    border-color: red;
+    padding: 30px;
+}
+
+.money-3k {
+    background-color: #ede4d880;
+    padding: 30px;
+    background: ;
+}
+
+.money-4k {
+    background-color: #ede4d880;
+    padding: 30px;
+    background: ;
+}
+
+.money-5k {
+    background-color: #ede4d880;
+    padding: 30px;
+
+}
+
+.money-button {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 
 
 .border {
     border-bottom: 2px solid rgb(182, 152, 152);
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 30px;
 
 }
 
 .border h5 {
     color: gray;
+}
+
+.border a {
+    text-decoration: none;
+
 }
 
 .help-button {
@@ -139,13 +189,23 @@ body {
     height: 350px;
     border-radius: 30px;
     box-shadow: 0px 5px 10px gray;
+    background: rgba(254, 211, 211, 0.477);
 
 
 }
 
+i {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+
+
+
+
 .box.half-width .text {
     width: 50%;
-    margin: auto;
+    margin: 50px;
 
 
 }
@@ -158,8 +218,9 @@ body {
 
 .box .half-width h1 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
+
 
 }
 
@@ -224,13 +285,13 @@ body {
 }
 
 .second-button {
+
     text-decoration: none;
-    background-color: orange;
+    margin-left: 200px;
+    background-color: orangered;
     padding: 5px 10px;
     border-radius: 50px;
-    color: white;
-    font-weight: 700;
-
+    color: aliceblue;
 
 
 }
