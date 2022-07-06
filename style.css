@@ -179,8 +179,13 @@ body {
 }
 
 .section-four {
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
+}
+
+.section-four p {
+    color: gray;
+    margin-top: 10px;
 }
 
 .box .half-width {
@@ -244,6 +249,15 @@ i {
 
 .bonus-area {
     width: 50%;
+}
+
+.bonus-area h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.bonus-area p {
+    color: gray;
 }
 
 
